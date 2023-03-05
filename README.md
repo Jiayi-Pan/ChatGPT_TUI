@@ -1,5 +1,7 @@
 # ChatGPT TUI
 
+[![PyPI version](https://badge.fury.io/py/chatgpt_tui.svg)](https://badge.fury.io/py/chatgpt_tui)
+
 ![](https://i.imgur.com/E1mrVGU.png)
 
 `catt` is a Python-based Text User Interface (TUI) for ChatGPT, powered by OpenAI's official API. It provides an easy-to-use interface that allows you to interact with ChatGPT directly from your terminal.
