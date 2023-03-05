@@ -28,7 +28,11 @@ class ChatApp(App):
 
     def action_yank(self) -> None:
         if self.history.data:
-            pyperclip.copy(self.history.data[-1][1])
+            try:
+                pyperclip.copy(self.history.data[-1][1])
+            except pyperclip.PyperclipException as e:
+                self.history.add_utterance(Agent.ERROR, repr(e))
+                self.query_one("#chat_container").mount(AgentMessage(Agent.ERROR, repr(e)))
 
     def on_mount(self) -> None:
         """Called when the app is mounted."""
