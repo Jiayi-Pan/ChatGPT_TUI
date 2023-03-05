@@ -1,0 +1,105 @@
+/* Screen {
+    layout: grid;
+    grid-size: 8 8;
+    grid-rows: 1fr;
+    grid-columns: 1fr;
+} */
+
+UserInput {
+    layout: horizontal;
+}
+
+.user_input_field{
+    height: 100%;
+    width: 6fr;
+}
+
+.user_send_button{
+    height: 100%;
+    width: 1fr;
+}
+
+/* Footer {
+    dock: bottom;
+} */
+
+/* Container {
+    height: 100%;
+    width: 100%;
+    background: #343541;
+}
+
+PreviousPrompt {
+    column-span: 2;
+    min-height: 5;
+}
+
+PreviousChatButton {
+    background: #343541;
+    width: 100%;
+    margin-left: 1;
+    margin: 1;
+}
+
+#previous_chats {
+    background: #202123;
+    column-span: 2;
+    row-span: 8;
+    height: 100%;
+}
+
+#prompts_and_responses_container {
+    column-span: 6;
+    row-span: 8;
+    background: #343541;
+}
+
+#prompts_and_responses > Vertical{
+    column-span: 6;
+    height: 100%;
+    background: #202123;
+}
+
+#previous_prompts > Vertical {
+    width: 100%;
+    column-span: 2;
+    row-span: 8;
+    height: 100%;
+    background: #202123;
+}
+
+Prompt {
+    background: #343541;
+    min-height: 5;
+    content-align: center middle;
+    text-style: bold;
+    margin-left: 0;
+    padding-left: 5;
+    padding-right: 5;
+}
+
+PromptResponse {
+    overflow-y: scroll;
+    background: #444654;
+    min-height: 5;
+    content-align: center middle;
+    text-style: bold;
+    padding-left: 2;
+    padding-right: 5;
+    padding-bottom: 2;
+    width: 100%;
+    padding-top: 1;
+    column-span: 6;
+    row-span: 3;
+}
+
+PreviousPrompt {
+    column-span: 4;
+    background: #202123;
+}
+
+Examples {
+    width: 20%;
+    height: 90%;
+    background: #202123;
+} */
