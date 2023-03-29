@@ -13,7 +13,7 @@ class UserInput(Static):
     A widget where the user can type a message.
     """
     BINDINGS = [
-        Binding('ctrl+s', 'send', 'Send', show=True, priority=False),
+        Binding('enter', 'send', 'Send', show=True, priority=False),
     ]
 
     class Utterance(Message):
@@ -33,6 +33,10 @@ class UserInput(Static):
     
     async def on_button_pressed(self) -> None:
         """Called when the user presses button."""
+        await self.send()
+    
+    async def key_enter(self) -> None:
+        """Called when the user presses enter."""
         await self.send()
     
     async def send(self) -> None:

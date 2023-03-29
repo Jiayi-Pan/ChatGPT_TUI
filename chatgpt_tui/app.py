@@ -20,7 +20,7 @@ class ChatApp(App):
         yield Header()
         yield Container(*self.compose_history(), id="chat_container")
         yield UserInput()
-        yield Static("Ctrl+s: Send | Ctrl+y: Yank latest message | Ctrl+d: Toggle dark mode") # temporal solution
+        yield Static("Enter: Send | Ctrl+y: Yank latest message | Ctrl+d: Toggle dark mode") # temporal solution
         # yield Footer() 
     
     def action_toggle_dark(self) -> None:
