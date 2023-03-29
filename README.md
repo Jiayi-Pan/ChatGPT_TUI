@@ -4,14 +4,14 @@
 
 ![](https://i.imgur.com/E1mrVGU.png)
 
-`catt` is a Python-based Text User Interface (TUI) for ChatGPT, powered by OpenAI's official API. It provides an easy-to-use interface that allows you to interact with ChatGPT directly from your terminal.
+`catui` is a Python-based Text User Interface (TUI) for ChatGPT, powered by OpenAI's official API. It provides an easy-to-use interface that allows you to interact with ChatGPT directly from your terminal.
 
 ## Usage
 
 ### Install
 
 ```bash
-pip install chatgpt_tui
+pip install -U chatgpt_tui
 ```
 
 ### Export your OpenAI API key
@@ -27,10 +27,10 @@ export OPENAI_API_KEY=your-api-key
 To start the app, simply run the following command in your terminal:
 
 ```bash
-catt
+catui
 ```
 
-This will launch `catt` and connect you to the ChatGPT chatbot.
+This will launch `catui` and connect you to the ChatGPT chatbot.
 
 ### Road Map
 - Resume from previous chat history
@@ -40,4 +40,4 @@ This will launch `catt` and connect you to the ChatGPT chatbot.
 
 # License
 
-`catt` is licensed under the MIT License.
+`catui` is licensed under the MIT License.
