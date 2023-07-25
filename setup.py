@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="chatgpt_tui",
-    version="0.6.0",
+    version="0.7.0",
     author="Jiayi Pan",
     author_email="i@jiayipan.me",
     description="A simple TUI interface for ChatGPT.",
@@ -17,7 +17,7 @@ setup(
     ],
     keywords=["chatbot", "tui", "chatgpt", "chatgpt_tui"],
     packages=find_packages(),
-    install_requires=["textual", "httpx", "pyperclip"],
+    install_requires=["textual==0.13", "httpx", "pyperclip"],
     entry_points={
         "console_scripts": [
             "catui = chatgpt_tui.app:run"
